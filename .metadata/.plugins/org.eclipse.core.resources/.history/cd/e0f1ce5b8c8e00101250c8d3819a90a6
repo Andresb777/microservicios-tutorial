@@ -1,0 +1,10 @@
+package com.usuario_service.feignclients;
+
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@FeignClient(name="moto-service",url="http://localhost:8083")
+@RequestMapping("/moto")
+public interface MotoFeignClient {
+
+}

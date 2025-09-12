@@ -1,0 +1,9 @@
+package com.usuario_service.modelos;
+
+public class Moto {
+	
+	
+	private String marca;
+	private 
+
+}
